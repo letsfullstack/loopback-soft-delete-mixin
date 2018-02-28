@@ -19,7 +19,7 @@ Install
 -------
 
 ```bash
-  npm install --save davikawasaki/loopback-softdelete-mixin.git
+  npm install --save git+ssh://git@bitbucket.org/letscomunicadev/loopback-lets-soft-delete-mixin.git#v0.0.1
 ```
 
 Configure
