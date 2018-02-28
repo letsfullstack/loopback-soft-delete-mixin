@@ -5,13 +5,15 @@ This module is designed for the [Strongloop Loopback](https://github.com/strongl
  
 This mixin was recoded since the current available softdelete mixin is not working in Node.js v4.x.x, probably caused by ES6. This code is forked from https://github.com/gausie/loopback-softdelete-mixin
 
-To implement, Copy this file to mixins folder, and add "SoftDelete": true in mixins on YourModel.json file.
+To implement copy this file to mixins folder or clone this private repository (requires adding the package folder path to mixins inside model-config json file), and add "SoftDelete": true in mixins on YourModel.json file.
 
 To delete a row or data, don't use destroyAll etc., use YourModel.delete
 
 To find data that is considered deleted, add includeDeleted: true in where filter
 
 Author: Saggaf Arsyad
+
+Modularization: Let's Comunica
 
 E-mail: saggaf@area54labs.net
 
