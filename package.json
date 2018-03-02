@@ -1,6 +1,6 @@
 {
   "name": "loopback-lets-soft-delete-mixin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "It allows entities of any Model to be soft deleted by adding deletedAt and _isDeleted attributes.",
   "main": "./lib/index.js",
   "scripts": {
