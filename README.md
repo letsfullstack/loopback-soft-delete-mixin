@@ -12,7 +12,7 @@ To find data that is considered deleted, add includeDeleted: true in where filte
 
 Original author: Saggaf Arsyad
 
-Node version used for development: **v10.10.0**
+Node version used for development: **v10.13.0**
 
 ## Contributing
 
